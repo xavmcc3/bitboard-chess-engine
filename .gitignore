@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# CMake outputs and build directories
+/build/
+/.cmake/
+CMakeUserPresets.json
+
+# VS Code directory configurations
+.vscode/
